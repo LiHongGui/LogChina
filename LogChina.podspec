@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LiHongGui/LogChina.git", :tag => "#{s.version}" }
 
-  s.source_files  = "LogChina"
-
+  s.source_files = "LogChina/*.{h,m}"
+  
   s.requires_arc = true
 
 end
