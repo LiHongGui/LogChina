@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LiHongGui/LogChina.git", :tag => "#{s.version}" }
 
-  s.source_files  = "LogChina", "LogChina/**/*.{h,m}"
+  s.source_files  = "LogChina", "NSArray+Unicode.{h,m},NSDictionary+Unicode.{h,m},NSObject+SafeSwizzle.{h,m},NSString+Unicode.{h,m}"
 
   s.requires_arc = true
 
